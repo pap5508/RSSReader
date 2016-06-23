@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#396295</color>
+    <color name="colorPrimaryDark">#325683</color>
+    <color name="colorAccent">#3f51f5</color>
+    <!--<color name="base_color">#487bb9</color>-->
+    <color name="base_color">#5a88c0</color>
+    <color name="icon_timeline_background_dark_grey">#dbdad8</color>
+    <color name="background_light">#f5f2ed</color>
+</resources>

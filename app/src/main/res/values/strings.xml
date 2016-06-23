@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TOI Reader</string>
+    <string name="times_of_india">TIMES OF INDIA</string>
+    <string name="stay_updated">THE</string>
+    <string name="enter">GET STARTED</string>
+    <string name="search">Search News</string>
+    <string name="one_place">ONE PLACE</string>
+</resources>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+   >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerInside"
+        android:id="@+id/logo_toi"
+        android:src="@drawable/logo_toi" />
+
+    <TextView
+        android:id="@+id/splash_text1"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:textSize="26dp"
+        android:layout_below="@+id/logo_toi"
+        android:text="@string/stay_updated"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/splashText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash_text1"
+        android:textSize="26dp"
+        android:typeface="normal"
+        android:padding="2dp"
+        android:text="@string/one_place"
+        android:textColor="@android:color/white"
+        />
+
+    <!--<TextView-->
+        <!--android:id="@+id/signup_lbl"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/login_button"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="4dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="@string/times_of_india"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="26sp" />-->
+    <Button
+        android:id="@+id/enter"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:letterSpacing="0.5"
+        android:text="@string/enter" />
+
+</RelativeLayout>
